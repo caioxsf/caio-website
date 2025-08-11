@@ -1,0 +1,19 @@
+{
+  "name": "caio-website",
+  "version": "1.0.0",
+  "description": "My website.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caioxsf/caio-website.git"
+  },
+  "author": "caio nobile",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/caioxsf/caio-website/issues"
+  },
+  "homepage": "https://github.com/caioxsf/caio-website#readme"
+}
