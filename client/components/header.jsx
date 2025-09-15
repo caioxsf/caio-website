@@ -44,7 +44,7 @@ export default function Header() {
           {/* Menu desktop */}
           <ul className="hidden sm:flex gap-10 font-semibold">
             <li className="relative cursor-pointer after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0 after:bg-teal-400 after:transition-all after:duration-300 hover:after:w-full">
-              <Link href="#inicio">Início</Link>
+              <Link href="/#inicio">Início</Link>
             </li>
             <li className="relative cursor-pointer after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0 after:bg-teal-400 after:transition-all after:duration-300 hover:after:w-full">
               <Link
@@ -58,7 +58,7 @@ export default function Header() {
               </Link>
             </li>
             <li className="relative cursor-pointer after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0 after:bg-teal-400 after:transition-all after:duration-300 hover:after:w-full">
-              <Link href="#contato">Contato</Link>
+              <Link href="/#contato">Contato</Link>
             </li>
           </ul>
 
@@ -125,7 +125,7 @@ export default function Header() {
               </Link>
             </li>
             <li className="relative cursor-pointer py-2 after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0 after:bg-teal-400 after:transition-all after:duration-300 hover:after:w-10">
-              <Link href="#contato" onClick={() => setOpen(false)}>Contato</Link>
+              <Link href="/#contato" onClick={() => setOpen(false)}>Contato</Link>
             </li>
           </ul>
         </nav>

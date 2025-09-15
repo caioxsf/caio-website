@@ -43,8 +43,8 @@ export default function Social() {
         ) : null
       )}
       <a
-        href="/pdf/curriculo.pdf"
-        download="/pdf/curriculo.pdf"
+        href="/pdf/Curriculo.pdf"
+        download="Curriculo.pdf"
         aria-label="Currículo"
         className="flex items-center justify-center gap-2 px-4 py-2 bg-neutral-900 text-white rounded-lg shadow hover:bg-neutral-800 transition
                    focus:outline-none focus:ring-2 focus:ring-teal-500/60 focus:ring-offset-2 focus:ring-offset-black
